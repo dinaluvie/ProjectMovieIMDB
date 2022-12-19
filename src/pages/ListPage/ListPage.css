@@ -1,0 +1,24 @@
+.list-page {
+    transform: translateX(40%) translateY(20%)
+}
+
+.list-page__title {
+    font-size: 34px;
+    margin-bottom: 26px;
+    background-color:bisque;
+    width:fit-content;
+    text-align: center;
+    color:brown;
+    font-size:20px;
+}
+
+.list-page ul li {
+    font-size: 18px;
+    
+}
+.movie__style{
+    color:brown;
+}
+.favoriteItems>li:not(first-child){
+    padding-top:-100px;
+}
